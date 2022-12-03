@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+  </head>
+
+  <body>
+    <div class="fundo">
+      <div class="calculadora">
+        <div id="visor"></div>
+        <table>
+          <tr>
+            <td>
+              <button class="botao botao-operador" id="botaoAC">C</button>
+            </td>
+            <td>
+              <button class="botao" id="botaoApagaUm">v</button>
+            </td>
+            <td>
+              <button class="botao botao-operador" id="botaoDivisao">/</button>
+            </td>
+            <td>
+              <button class="botao botao-operador" id="botaoMultiplicacao">*</button>
+            </td>
+          </tr>
+          <tr>
+            <td><button class="botao botao-numero" id="botao-sete" >7</button></td>
+            <td><button class="botao botao-numero" id="botao-oito" >8</button></td>
+            <td><button class="botao botao-numero" id="botao-nove" >9</button></td>
+            <td>
+              <button class="botao botao-operador" id="botaoMenos" >-</button>
+            </td>
+          </tr>
+          <tr>
+            <td><button class="botao botao-numero" id="botao-quatro" >4</button></td>
+            <td><button class="botao botao-numero" id="botao-cinco" >5</button></td>
+            <td><button class="botao botao-numero" id="botao-seis" >6</button></td>
+            <td>
+              <button class="botao botao-operador" id="botaoMais">+</button>
+            </td>
+          </tr>
+          <tr>
+            <td><button class="botao botao-numero" id="botao-um" >1</button></td>
+            <td><button class="botao botao-numero" id="botao-dois" >2</button></td>
+            <td><button class="botao botao-numero" id="botao-tres" >3</button></td>
+            <td rowspan="2">
+              <button class="botao" id="botaoIgual" style="height: 106px">=</button>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <button class="botao botao-numero"style="width: 106px" id="botao-zero" >0</button>
+            </td>
+            <td><button class="botao botao-numero" id="botao-pontos" >.</button></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
